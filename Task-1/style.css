@@ -1,0 +1,198 @@
+body {
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding-top: 160px; 
+}
+header {
+    backdrop-filter: blur(8px);
+    border-bottom: 10px solid rgba(203, 169, 114, 0.63);
+    color: rgb(203, 169, 114);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+header h1{
+    margin: 8px;
+    font-size: 40px;
+}
+header p{
+    font-size: 20px;
+}
+header div{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px ;
+}
+header div a{
+    text-decoration: none;
+    color: black;
+    width: 7%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(110, 81, 46);
+}
+header div a:hover{
+    background-color: rgb(203, 169, 114);
+    transform: scale(1.153);
+    transition: 0.3s;
+    box-shadow: 0 2px  12px rgba(255, 255, 255, 0.563);
+    
+}
+section {
+    padding-top: 20px;
+}
+#about{
+    display: flex;
+    align-items: center;
+}
+#about div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 52%;
+    padding: 20px;
+}
+#about div h2{
+    margin: 0 auto;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#about div p{
+    color: rgb(255, 223, 172);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#about img{
+    border-radius: 50%;
+    margin-top: 50px;
+    box-shadow: 0 5px 10px rgba(171, 171, 171, 0.348);    
+    width: 23%;
+}
+h2{
+    color:rgba(255, 5, 5, 0.486);
+    font-size: 50px;
+    text-decoration: underline;
+}
+#skills div h2{
+    text-align: center;
+    margin: 0;
+}
+#skills div ul{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 55px;
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+}
+#skills div ul li{
+    font-size: 18.5px;
+    font-style:italic;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:rgba(222, 184, 135, 0.782);
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#skills div ul li:hover{
+    transform: scale(1.153);
+    transition: 0.3s;
+    box-shadow: 0 2px  12px rgba(255, 255, 255, 0.563);
+}
+#projects h2{
+    text-align: center;
+}
+.projects h3,img,p{
+    margin: 4px;
+    border-radius: 7px;
+}
+.projects img{
+    border: 3px solid beige;
+}
+.projects h3{
+    text-align: left;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.projects p{
+    margin: 0 auto;
+    padding: 10px;
+}
+.projects div{
+    border: 5px solid rgba(182, 88, 88, 0.464);
+    border-radius: 18px;
+}
+.projects div:hover{
+    background-color: black;
+    transform: scale(1.07);
+    transition: 0.5s;
+    box-shadow: 0 1px 25px bisque;
+}
+.projects{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 8%;
+    grid-row-gap: 10%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 78%;
+}
+#resume{
+    margin-top: 60px;
+    text-align: center;
+}
+#resume button{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.544),rgba(0, 0, 255, 0.505));
+    font-size: 20px;
+    border: 5px solid rgba(136, 0, 255, 0.567);
+    border-radius: 18px;
+    padding: 18px;
+}
+#resume button:hover{
+    transform: scale(1.08);
+    transition: 0.4s;
+    background-image: linear-gradient(to right,rgba(4, 0, 255, 0.544),rgba(255, 0, 0, 0.505));
+    box-shadow: 0 1px 25px bisque;
+}
+#contact{
+    text-align: center;
+    padding: 20px;
+}
+#contact h2,p{
+    margin: 0;
+    margin-top: 15px;
+}
+#contact p{
+    font-size: 20px;
+}
+#contact a{
+    margin-left: 7px;
+}
+#contact a:hover{
+    color:rgba(255, 0, 0, 0.507);
+}
+footer{
+    margin-top: 30px;
+    color: rgb(216, 216, 216);
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: rgba(145, 145, 145, 0.453)
+}
